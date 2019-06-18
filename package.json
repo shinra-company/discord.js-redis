@@ -24,8 +24,10 @@
     "mocha": "^3.3.0"
   },
   "dependencies": {
-    "discord.js": "github:discordjs/discord.js",
-    "redis": "^2.8.0",
     "tsubaki": "^1.3.1"
+  },
+  "peerDependencies": {
+    "discord.js": "github:discordjs/discord.js",
+    "redis": "^2.8.0"
   }
 }
